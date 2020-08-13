@@ -160,7 +160,7 @@ document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
 };
 
-document.querySelector("#de-btn").onclick = function() {
+document.querySelector("#del-btn").onclick = function() {
   event.preventDefault();
   deletePending();
 };
